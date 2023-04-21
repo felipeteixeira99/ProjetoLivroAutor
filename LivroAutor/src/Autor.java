@@ -16,7 +16,8 @@ public class Autor {
 			this.nacionalidade = nacionalidade;
 		}
 		public String getDataDeNascimento() {
-			return dataDeNascimento;
+			//System.out.println("Data de nascimento: ");
+			return ("Data de nascimento: " + dataDeNascimento);
 		}
 		public void setDataDeNascimento(String dataDeNascimento) {
 			this.dataDeNascimento = dataDeNascimento;

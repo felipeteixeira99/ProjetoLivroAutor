@@ -2,8 +2,11 @@
 public class TestarAutor {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		Autor autor = new Autor();
+		
+		autor.setDataDeNascimento("11/06/2001");
+		
+		System.out.println(autor.getDataDeNascimento());
 	}
 
 }
