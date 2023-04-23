@@ -4,19 +4,18 @@ public class Autor {
 		private String dataDeNascimento;
 		
 		public String getNome() {
-			return nome;
+			return ("Nome: " + this.nome);
 		}
 		public void setNome(String nome) {
 			this.nome = nome;
 		}
 		public String getNacionalidade() {
-			return nacionalidade;
+			return ("Nacionalidade: " + nacionalidade);
 		}
 		public void setNacionalidade(String nacionalidade) {
 			this.nacionalidade = nacionalidade;
 		}
 		public String getDataDeNascimento() {
-			//System.out.println("Data de nascimento: ");
 			return ("Data de nascimento: " + dataDeNascimento);
 		}
 		public void setDataDeNascimento(String dataDeNascimento) {
