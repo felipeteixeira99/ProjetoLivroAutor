@@ -4,7 +4,7 @@ public class Autor {
 		private String dataDeNascimento;
 		
 		public String getNome() {
-			return ("Nome: " + this.nome);
+			return ("Nome do Autor: " + this.nome);
 		}
 		public void setNome(String nome) {
 			this.nome = nome;

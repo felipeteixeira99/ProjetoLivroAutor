@@ -1,33 +1,18 @@
 
 public class TestarLivro {
-	private String titulo;
-	private Autor autor;
-	private String editora;
-	private int anoDePublicacao;
-
-	public String getTitulo() {
-		return titulo;
-	}
-	public void setTitulo(String titulo) {
-		this.titulo = titulo;
-	}
-	public Autor getAutor() {
-		return autor;
-	}
-	public void setAutor(Autor autor) {
-		this.autor = autor;
-	}
-	public String getEditora() {
-		return editora;
-	}
-	public void setEditora(String editora) {
-		this.editora = editora;
-	}
-	public int getAnoDePublicacao() {
-		return anoDePublicacao;
-	}
-	public void setAnoDePublicacao(int anoDePublicacao) {
-		this.anoDePublicacao = anoDePublicacao;
+	public static void main(String[] args) {
+		Livro livro = new Livro();
+		Autor autor = new Autor();
+		
+		livro.setTitulo("Branca de Neve");
+		autor.setNome("Disney");
+		livro.setEditora("Saraiva");
+		livro.setAnoDePublicacao("11/06/1996");
+		
+		System.out.println(livro.getTitulo());
+		System.out.println(autor.getNome());
+		System.out.println(livro.getEditora());
+		System.out.println(livro.getAnoDePublicacao());
 	}
 }
 
