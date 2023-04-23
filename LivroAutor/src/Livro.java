@@ -29,6 +29,4 @@ public class Livro {
 	public void setAnoDePublicacao(String anoDePublicacao) {
 		this.anoDePublicacao = anoDePublicacao;
 	}
-	
-	
 }
